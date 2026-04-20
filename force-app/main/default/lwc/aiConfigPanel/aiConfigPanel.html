@@ -1,0 +1,34 @@
+<template>
+    <lightning-card title="AI Governance Configuration" icon-name="standard:settings">
+        <div class="slds-p-around_medium">
+            <p class="slds-text-body_regular slds-m-bottom_medium">
+                Configure AI integration settings. Changes to Custom Metadata require deployment.
+            </p>
+            
+            <template if:true={configs}>
+                <lightning-datatable
+                    key-field="DeveloperName"
+                    data={configs}
+                    columns={columns}
+                    hide-checkbox-column>
+                </lightning-datatable>
+            </template>
+
+            <template if:false={configs}>
+                <div class="slds-text-align_center slds-p-around_large">
+                    <lightning-spinner alternative-text="Loading..." size="small">
+                    </lightning-spinner>
+                </div>
+            </template>
+        </div>
+
+        <div slot="footer">
+            <lightning-button 
+                label="Refresh Configuration" 
+                variant="neutral" 
+                onclick={refreshConfigs}
+                icon-name="utility:refresh">
+            </lightning-button>
+        </div>
+    </lightning-card>
+</template>
