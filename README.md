@@ -116,6 +116,13 @@ force-app/main/default/
 - ✅ LWC dashboard for monitoring
 - ✅ 95%+ test coverage
 
+## Screenshots
+### Dashboard View
+![AI Salesforce Dashboard](Screenshots/Screenshot 2026-04-21 at 1.26.05 AM.png)
+
+### Configuration / Logs View
+![AI Salesforce Configuration and Logs](Screenshots/Screenshot 2026-04-21 at 1.27.43 AM.png)
+
 ## Author
 **Ashish Ghaytadak**
 - LinkedIn: linkedin.com/in/ashishghaytadak
