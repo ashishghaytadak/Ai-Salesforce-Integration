@@ -118,10 +118,10 @@ force-app/main/default/
 
 ## Screenshots
 ### Dashboard View
-![AI Salesforce Dashboard](Screenshots/Screenshot 2026-04-21 at 1.26.05 AM.png)
+![AI Salesforce Dashboard](Screenshots/dashboard-view.png)
 
 ### Configuration / Logs View
-![AI Salesforce Configuration and Logs](Screenshots/Screenshot 2026-04-21 at 1.27.43 AM.png)
+![AI Salesforce Configuration and Logs](Screenshots/config-logs-view.png)
 
 ## Author
 **Ashish Ghaytadak**
